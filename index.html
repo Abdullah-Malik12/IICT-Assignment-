@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> IICT Project</title>
-    <link rel = "stylesheet" href = "style.css">
+    <title>IICT Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="background-overlay"></div>
 
-    <div id="header">
-        <div id="title">
-    <h1>
-        The Diriliş: Ertuğrul Experience
-    </h1>
+    <header id="header">
+        <h1>The Diriliş: Ertuğrul Experience</h1>
+    </header>
 
-    </div>
-    
-    </div>
+    <section class="hero">
+        <h1>Welcome to the Kayı Tribe</h1>
+        <p>
+            Enter the world of valor, honor, and destiny. Stand with Ertuğrul Bey, forge alliances,
+            defend your tribe, and experience the spirit that shaped empires.
+        </p>
+    </section>
 
-    
-<div class="intro-content">
-    <h1>The Diriliş: Ertuğrul Experience</h1>
-    <p>Step into the world of the Kayı tribe, where courage, honor, and destiny intertwine. Led by the fearless Ertuğrul, the tribe navigates the challenges of a harsh land, facing rivals, forging alliances, and upholding justice. Explore their legendary journey, witness the battles that shaped history, and discover the spirit of a people whose story echoes through time.</p>
-    
-    </div>
+    <section class="features">
+        <div class="card">
+            <h3>Ertuğrul's Training Ground</h3>
+             <p>Sharpen your skills and prepare for battle. Available items and training:</p>
+        <ul>
+            <li>Swords (Hand-forged Kayı swords)</li>
+            <li>Daggers & Shields</li>
+            <li>Bow & Arrow Sets</li>
+            <li>Armor & Leather Chestplates</li>
+            <li>Horse Riding Lessons</li>
+            <li>Combat Training Packages</li>
+        </ul>
+        </div>
 
-<section class="features">
-     <div class="card">
-        <h3>Ertugrul's Training Ground</h3>
-        <p>Hone the art of swordsmanship under the great leader of Kayi tribe.</p>
-    </div>
-    <div class="card">
-        <h3>Deli Damir's Workshop</h3>
-        <p>Master the craft of weapons and tools with the tribe’s finest blacksmith.</p>
-    </div>
-    <div class="card">
-        <h3>Artuk Bey's Medic Center</h3>
-        <p>Learn traditional herbal remedies and ancient healing techniques.</p>
-    </div>
-    
-</section>
-<section class="signup-form">
-            <h2>Join the Tribe</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <div class="card">
+            <h3>Deli Demir's Workshop</h3>
+            <p>Master the art of crafting weapons and tools:</p>
+        <ul>
+            <li>Hand-forged Axes and Hammers</li>
+            <li>Custom Blades and Daggers</li>
+            <li>Leather Belts and Sheaths</li>
+            <li>Metal Armor Reinforcements</li>
+            <li>Workshop Experience & Lessons</li>
+        </ul>
+        </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="you@example.com" required>
-      <fieldset>
-                    <legend>Choose your interests:</legend>
-                    <label><input type="checkbox" name="interest" value="training"> Training</label>
-                    <label><input type="checkbox" name="interest" value="crafts"> Crafts</label>
-                    <label><input type="checkbox" name="interest" value="herbs"> Herbal Remedies</label>
-                </fieldset>
+        <div class="card">
+            <h3>Artuk Bey's Medic Tent</h3>
+            <p>Learn the secrets of traditional healing:</p>
+        <ul>
+            <li>Herbal Remedies</li>
+            <li>Healing Potions & Salves</li>
+            <li>Bandages & Medical Kits</li>
+            <li>Herbal Workshops</li>
+            <li>Ancient Treatment Tutorials</li>
+        </ul>
+        </div>
+    </section>
 
-               
-                <fieldset>
-                    <legend>Plan type:</legend>
-                    <label><input type="radio" name="plan" value="basic" checked> Basic</label>
-                    <label><input type="radio" name="plan" value="premium"> Premium</label>
-                </fieldset>
+    <section class="signup-form">
+        <h2>Join the Tribe</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Your Name" required>
 
-             
-                <label for="tribe-role">Choose a role:</label>
-                <select id="tribe-role" name="tribe-role">
-                    <option value="warrior">Warrior</option>
-                    <option value="blacksmith">Blacksmith</option>
-                    <option value="healer">Healer</option>
-                </select>
+            <label>Email:</label>
+            <input type="email" placeholder="you@example.com" required>
 
-               
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Write something..." rows="4"></textarea>
+            <fieldset>
+                <legend>Your Interests</legend>
+                <label><input type="checkbox"> Training</label>
+                <label><input type="checkbox"> Crafts</label>
+                <label><input type="checkbox"> Herbal Healing</label>
+            </fieldset>
 
-                
-                <button type="submit" class="start-btn">Join Now</button>
-            </form>
-        </section>
+            <fieldset>
+                <legend>Plan Type</legend>
+                <label><input type="radio" name="plan" checked> Basic</label>
+                <label><input type="radio" name="plan"> Premium</label>
+            </fieldset>
 
- 
-<footer class="bottom-icons">
-    <a href="#"><img src="iyi flag.png" alt="Facebook" class="icon"></a>
-</footer>
+            <label>Choose a Role:</label>
+            <select>
+                <option>Warrior</option>
+                <option>Blacksmith</option>
+                <option>Healer</option>
+            </select>
 
+            <label>Your Message:</label>
+            <textarea rows="4" placeholder="Write something..."></textarea>
 
-   
+            <button type="submit" class="start-btn">Join Now</button>
+        </form>
+    </section>
+
+    <footer class="bottom-icons">
+        <a href="#"><img src="iyi flag.png" class="icon"></a>
+    </footer>
+
 </body>
-
-
 </html>
